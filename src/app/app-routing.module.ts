@@ -8,8 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'wisher-form',
     pathMatch: 'full'
+  },
+  {
+    path: 'wisher-form',
+    loadChildren: () => import('./wisher-form/wisher-form.module').then( m => m.WisherFormPageModule)
   },
 ];
 
