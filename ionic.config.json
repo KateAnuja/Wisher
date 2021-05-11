@@ -1,0 +1,7 @@
+{
+  "name": "Wisher",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
